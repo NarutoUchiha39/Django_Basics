@@ -1,0 +1,18 @@
+Q1) What is HTTP $
+
+Ans) HTTP stands for Hyper Text Transfer Protocol. It is a type of connection such that once the user and the server agree to handshake(establish connection), Data is transfered  between the server and the client and the connection is closed automatically. It is not desirable as every time any changes are made in the server side, the entire page has to be reloaded to show the changes. This makes the loading of websites slow and costly. Whenever we send the HTTP request we send over a header file to the server that gives us back a HTML (or anything) in response to be displayed.
+
+Types of Commands:
+1) Get/Put/Delete
+
+What are Header file $
+Ans) Header Files are details sent to the server telling it all the things it wants(Eg:Get Put or Delete request)
+
+What is TCP and UDP $
+Ans) These are Transmission control protocols that govern how packets are transfered over the internet. TCP refers to Transmission control Protocol. t makes sure that all the packets are sent and recieved in order.
+
+UDP stands for User Datagram Protocol It doesnt make sure that the packets reach in order. It allows the lose of a packet or two(Prioterizes speed and efficiency)
+
+Q2) What are WebSockets and why do we need them $
+
+Ans) WebSocket is a computer communications protocol, providing full-duplex(Allowing Data transfers drom both sides) communication channels over a single TCP connection
