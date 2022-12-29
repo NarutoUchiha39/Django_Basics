@@ -9,10 +9,24 @@ What are Header file $
 Ans) Header Files are details sent to the server telling it all the things it wants(Eg:Get Put or Delete request)
 
 What is TCP and UDP $
-Ans) These are Transmission control protocols that govern how packets are transfered over the internet. TCP refers to Transmission control Protocol. t makes sure that all the packets are sent and recieved in order.
+Ans) These are Transmission control protocols that govern how packets are transfered over the internet. TCP refers to Transmission control Protocol. TCP makes sure that all the packets are sent and recieved in order.(is more reliable)
 
 UDP stands for User Datagram Protocol It doesnt make sure that the packets reach in order. It allows the lose of a packet or two(Prioterizes speed and efficiency)
 
 Q2) What are WebSockets and why do we need them $
 
-Ans) WebSocket is a computer communications protocol, providing full-duplex(Allowing Data transfers drom both sides) communication channels over a single TCP connection
+Ans) WebSocket is a computer communications protocol, providing full-duplex(Allowing Data transfers drom both sides) communication channels over a single TCP connection. Initially an HTTP request is made. If the connection request gets accepted, then the client andthe server can agree to upgrade rheir connection to Web Sockets. Using web sockets enables us to establish a continuous connection with the server allowing us to see real time canges on the website withut needing to reload it
+
+Q3) What is AJAX(Asynchronous JavaScript and XML) $
+Ans) It is a web development technique in which a browser makes a request to the server(Twitter sends AJAX reuest to their server every few seconds) to see if there are any new data available and then it updates the page without having to reload the entire page Ajax connection is closed after one request response cycle whereas WebSocket have continuous bi-directional connection open
+
+It's asynchronous in that it doesn't lock up the browser. If you fire an Ajax request, the user can still work while the request is waiting for a response. When the server returns the response, a callback runs to handle it.
+
+You can make the XMLHttpRequest synchronous if you want, and if you do, the browser locks up while the request is outstanding (so most of the time this is inappropriate)
+
+
+Q4) What is long  polling and polling $
+Ans) HTTP Long Polling is a technique used to push information to a client as soon as possible on the server. As a result, the server does not have to wait for the client to send a request. In simple words the connection is kept open until new data is made available on the server and it is sent to the client. Polling refers to the technique of sending connection requests every X amount of seconds
+
+Q5) WHat is Server Side Event $
+Ans)
