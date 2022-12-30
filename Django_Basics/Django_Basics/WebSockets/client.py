@@ -23,6 +23,6 @@ send("Hello World!")
 
 send("Hello Everyone!")
 
-send("Hello Tim!")
+send("Hello")
 
 #send(DISCONNECT_MESSAGE)
