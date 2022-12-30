@@ -12,7 +12,6 @@ def handle_client(conn,addr):
     Connected = True
     while (Connected):
         msg_length = conn.recv(HEADER).decode()
-        
         if(msg_length):
             msg_length = int(msg_length)
             msg = conn.recv(msg_length).decode()
