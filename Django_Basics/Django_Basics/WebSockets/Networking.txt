@@ -30,3 +30,10 @@ Ans) HTTP Long Polling is a technique used to push information to a client as so
 
 Q5) WHat is Server Side Event $
 Ans)
+
+Q6) What is MVT $
+Ans) Django uses Model View Template. That is when a client makes a request to an URL it goes to the URL.py and from that it gets the routing. After that it goes to the views. Views serves as connection between Model and Template. Model bascically connects database with Django and Template contains the the front end JavaScript and HTML. Views merges the data from Model and the HTML and CSS from the Template to display the final web page
+What is DOM $
+Ans) DOM stands for Document Object Model. Document represents the file , O stands for Object or we can say the HTML tags(also called the child node) and M stands Model that is the tree structure linking te parent with the child. DOM is an API (Application programming interface)that creates a tree linking the parent nodes with all its cildren. It can then be easily used by appliations to edit documents
+It is used for HTML and XML. All web browsers use DOM to make their websites accessible by JavaScript
+
